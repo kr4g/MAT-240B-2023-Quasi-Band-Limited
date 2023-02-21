@@ -148,15 +148,15 @@
 		},
 		{
 			"isGenerated" : true,
+			"path" : "build/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_VST3/Info.plist"
+		},
+		{
+			"isGenerated" : true,
 			"path" : "build/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_Standalone/Info.plist"
 		},
 		{
 			"isGenerated" : true,
 			"path" : "build/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_AU/Info.plist"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "build/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_VST3/Info.plist"
 		},
 		{
 			"path" : "JUCE/CMakeLists.txt"

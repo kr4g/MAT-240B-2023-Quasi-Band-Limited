@@ -80,15 +80,15 @@
 	[
 		{
 			"backtrace" : 5,
-			"id" : "AudioPluginExample_Standalone::@6890427a1f51a3e7e1df"
+			"id" : "AudioPluginExample_VST3::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 7,
-			"id" : "AudioPluginExample_AU::@6890427a1f51a3e7e1df"
+			"id" : "AudioPluginExample_Standalone::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 9,
-			"id" : "AudioPluginExample_VST3::@6890427a1f51a3e7e1df"
+			"id" : "AudioPluginExample_AU::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 

@@ -1,5 +1,7 @@
 #include <cmath>
 
+const float SAMPLERATE = 48000.0f;
+
 class QuasiOscillator {
 protected:
     float phase = 0;
@@ -12,9 +14,9 @@ protected:
     float output = 0;
 
 public:
-    void set(float freq, float samplerate) {
+    void set(float freq) {
         float lastW = w;
-        w = freq / samplerate;
+        w = freq / SAMPLERATE;
         if (std::fabs(w - lastW) < 1e-6) {
             return;
         }

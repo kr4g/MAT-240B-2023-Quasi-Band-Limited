@@ -94,14 +94,14 @@ struct QuasiBandLimited : public AudioProcessor {
         float A = dbtoa(gain->get());
         float freq = mtof(note->get());
         
-        qSaw.set(freq, 48000);
+        qSaw.set(freq);
         qSaw.updateFilter(filter->get());
 
-        qPulse.pw = pulseWidth->get();
-        qPulse.set(freq, 48000);
+        qPulse.set(freq);
         qPulse.updateFilter(filter->get());
+        qPulse.pw = pulseWidth->get();
         
-        // interpolate between QuasiPulse and QuasiSaw
+        // mix between QuasiPulse and QuasiSaw
         left[i] = right[i] = A * (oscMix->get() * qPulse() + (1 - oscMix->get()) * qSaw());
     }
   }

@@ -62,15 +62,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "AudioPluginExample_artefacts/JuceLibraryCode/Debug/Defs.txt"
+  "AudioPluginExample_artefacts/Debug/VST3/Quasi Band Limited.vst3/Contents/MacOS"
+  "AudioPluginExample_artefacts/Debug/VST3/Quasi Band Limited.vst3/Contents/Info.plist"
+  "AudioPluginExample_artefacts/Debug/VST3/Quasi Band Limited.vst3/Contents/Info.plist"
   "AudioPluginExample_artefacts/Debug/Standalone/Quasi Band Limited.app/Contents/MacOS"
   "AudioPluginExample_artefacts/Debug/Standalone/Quasi Band Limited.app/Contents/Info.plist"
   "AudioPluginExample_artefacts/Debug/Standalone/Quasi Band Limited.app/Contents/Info.plist"
   "AudioPluginExample_artefacts/Debug/AU/Quasi Band Limited.component/Contents/MacOS"
   "AudioPluginExample_artefacts/Debug/AU/Quasi Band Limited.component/Contents/Info.plist"
   "AudioPluginExample_artefacts/Debug/AU/Quasi Band Limited.component/Contents/Info.plist"
-  "AudioPluginExample_artefacts/Debug/VST3/Quasi Band Limited.vst3/Contents/MacOS"
-  "AudioPluginExample_artefacts/Debug/VST3/Quasi Band Limited.vst3/Contents/Info.plist"
-  "AudioPluginExample_artefacts/Debug/VST3/Quasi Band Limited.vst3/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "JUCE/JUCEConfigVersion.cmake"
   "JUCE/JUCEConfig.cmake"
